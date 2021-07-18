@@ -1,4 +1,4 @@
-FROM rust:1.36
+FROM rust:1.53
 
 # Install GNU awk, required by the `feeds` scripts of the OpenWRT SDK
 RUN apt-get update && \
